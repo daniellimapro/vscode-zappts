@@ -1,0 +1,29 @@
+{
+    "name": "zappts-theme",
+    "displayName": "Zappts Code Theme",
+    "description": "ACELERAMOS A TRANSFORMAÇÃO DIGITAL DA SUA EMPRESA",
+    "author": "Daniel Lima",
+    "icon": "newlogo.png",
+    "publisher": "ZapptsCodeTheme",
+    "galleryBanner": {
+        "color": "090b10",
+        "theme": "dark"
+        },
+        "homepage": "https://zappts.com/",
+    "version": "0.0.4",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zappts",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Zappts-color-theme.json"
+            }
+        ]
+    }
+}
